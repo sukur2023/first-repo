@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+        <input id="inputId" type="text">
+        <button  id="buttonId">Bas</button>
+        <script >
+let input = document.getElementById("inputId");
+let button = document.getElementById("buttonId");
+button.addEventListener("click", function() {
+    let inputValue = input.value;
+  
+    console.log(inputValue);});
+        </script>
+</body>
+</html>
